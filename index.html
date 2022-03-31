@@ -17,7 +17,10 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-image='imgs/skyline_madrid.jpg'>
+
+
+				<section data-background-image='imgs/skyline_madrid.jpg' data-markdown>
+					<textarea data-template>
 					<h2 style="line-height: 0.9em;"><span class="subtitle">Towards</br></span>Realistic<br />Risk &amp; Return Estimates<br />for Real Estate</h2>
 					<p style="font-size: 0.8em; margin-top: 0.8em;">Dr. Thies Lindenthal</p>
 					<p>&nbsp;</p>
@@ -25,6 +28,12 @@
 					<p>&nbsp;</p>
 					<p>&nbsp;</p>
 					<p class='source'><a href="https://www.flickr.com/photos/vic_206/37365289430">Photo &copy;</a></p>
+
+					Notes:
+
+					* Thank you very much for having me, I am excited to be here with you.
+					* I am looking forward the the Q&A, so let me jump right to the main research question.
+					</textarea>
 				</section>
 
 
@@ -37,20 +46,16 @@
 					* How does its risk/return profile compare to other investments?
 					* How much more risky are individual assets?
 
-					<aside class="notes">
-						To be able to make better-informed decisions, academia, industry, policymakers and private
-						households should be familiar with real estate’s risk–return profile. After all, real estate accounts
-						for more than half of the total assets of UK households.
+					Notes:
 
-						Still, property investments are often misunderstood as being fundamentally different from more mainstream asset classes such as
-						stocks or bonds. Simplistic advice such as “Buy land, they’re not making it anymore”, attributed
-						to Mark Twain, is typical for a view in which real estate is exceptional: returns exceed a fair
-						compensation for risk.
+					* Most of my research centers around a straight-forward question: Is real estate a good investment? We should know, it's the largest asset class in the world.
 
-						<p>As an applied financial economist, I strive for a realistic estimates of real estate’s risks and returns, both at the
-						market and at the asset level. To do so, I combine theory and data, traditional econometrics and
-						innovative machine learning techniques, dusty archives and big data sensors.</p>
-					</aside>
+					* Still, property investments are often misunderstood as being fundamentally different from more mainstream asset classes such as stocks or bonds. Simplistic advice such as "get on the housing ladder!" is typical for a view in which real estate is exceptional: returns exceed a fair compensation for risk.
+
+					* As an applied financial economist, I strive for a realistic estimates of real estate’s risks and returns, both at the market and at the asset level. To do so, I combine theory and data, traditional econometrics and innovative machine learning techniques, dusty archives and big data sensors.
+
+					* Academics, industry players, policymakers and private households&mdash; they should be familiar with real estate’s risk–return profile.
+
 				</textarea>
 				</section>
 
@@ -64,10 +69,9 @@
 
 					Notes:
 
-					* The global financial crisis of 2008/2009 has highlighted the pivotal role of real estate in our economy and financial system once more.
-					* The sheer size of the asset class dominates national accounts and household-level balance sheets alike, both in terms of assets and liabilities. A large section in the Bank of England’s 2019 Financial Stability Report is devoted to real estate, modelling how the housing market can be a key source of risk to UK financial stability.
-
-					* Drops in residential and commercial real estate prices, for instance, were an explicit component of the stress test scenarios imposed on UK banks</p>.
+					* The global financial crisis of 2008/2009 has highlighted the importance of real estate for our economy and financial system once more.
+					* The sheer size of the asset class dominates national accounts and household-level balance sheets alike, both in terms of assets and liabilities.
+					* A large section in the Bank of England’s 2019 Financial Stability Report is devoted to real estate, modelling how the housing market can be a key source of risk to UK financial stability.
 					</textarea>
 				</section>
 
@@ -78,6 +82,16 @@
 					* Sovereign wealth funds, insurance companies, pension funds
 						- &ldquo;Our&rdquo; pension scheme USS holds £4.3 billion of private RE, for instance.  <img src="imgs/uss.png" height=300>
 
+					Notes:
+
+					* The risk/return profile of real estate is absolutely relevant to the industry.
+
+					* Sovereign wealth funds, insurance companies, pensions funds and other institutional investors, they are all invested in real estate.
+
+					* Our pension scheme, the USS, for instance, owns private property worth 4.3 billion at the moment.
+
+					* Beside the shrinking pensions, real estate affects the bottom line of most households directly.
+
 				</textarea>
 				</section>
 
@@ -86,7 +100,7 @@
 				<h2><span class="darkonlight">Households</span><span class="darkonlight"></span><span class="darkonlight subtitle"><br />...face the same challenge as sophisticated professional investors.</span></h2>
 
 				<ul>
-					<li><span class="darkonlight">3 BR late Victorian terraced house in East Cambridge. Sold for almost £0.5 million in August 2019.</span></li>
+					<li><span class="darkonlight">3 BR late Victorian terraced house in East Cambridge. Sold in August 2019.</span></li>
 					<li><span class="darkonlight">How much return can the new owners expect?</span></li>
 					<li><span class="darkonlight">How much risk do they face?</span></li>
 				</ul>
@@ -97,9 +111,7 @@
 
 				* To give you an example here, imagine this 3 bedroom late Victorian terraced house in East Cambridge that sold for almost half a million pounds in August 2019. If you think about this particular building, how much return can the new owners expect over the coming years and how much risk do they face?
 
-				* Questions like these are a lot more difficult to answer for real estate than for other asset classes &ndash; or for individual assets than for	&ndash; let's say &ndash; shares of a company.
-
-				* One of the good things about being a researcher on real estate is that it is easy to talk about your research to other people. Most people have an opinon on the housing market and they are really keen to share their views. Unfortunately, however, many of the broadly held beliefs are not supported by evidence. I have stopped telling people at parties that real estate is not the great investment they believe it is. It is never good to be that killjoy at a party. Still all the evidence points towards real estate being a fair investment, yes, but most definitely NOT an exceptionally good one. And no, investments into bricks and mortar are not low-risk.
+				* When we bought our house, my family assumed that I would conduct a very elaborate financial analysis. It's my job, I should be able to do it. Let me confess, I did not. I made a few bold assumptions and then we made an offer.
 
 			</textarea>
 			</section>
@@ -112,6 +124,15 @@
 					* **A risk premium puzzle?**
 						- “Arguably the most surprising result of our study is that long-run returns on housing and equity look remarkably similar. <mark>Yet while returns are comparable, residential real estate is less volatile on a national level, opening up new and interesting risk premium puzzles.</mark>”
 						<br /><br/>*The Rate of Return on Everything, 1870–2015* (<a href="https://academic.oup.com/qje/article/134/3/1225/5435538">Jordà et al., QJE 2019</a>)
+
+					Notes:
+
+					* And I am not the only one struggling to come up with helpful answers.
+					* As a discipline, we lack good quality data.
+					* Without reliable data, the academic literature remains stuck in "puzzles". A good example is a recently published QJE paper that compared the risk-return profiles of housing to stocks.
+					* They, again, repeat this widely-held misconception that real estate is somehow magical: Ig offers the same returns as stocks but at a lower risk.
+					* That cannot be true&mdash;and it isn't.
+
 				</textarea>
 			</section>
 
@@ -122,6 +143,16 @@
 				* Asset-level total return: Rents, costs, taxes, prices for residential RE in Paris (1809–1943) and Amsterdam (1900–1979)
 
 				<img src="imgs/totalreturn_amsparis.png" height=330>
+
+				Notes:
+
+				* In a recent paper, Piet Eichholtz, Matthijs Korevaar, Ronan Tallec and I show that this puzzle completely disappears with better data.
+
+				* We collected 170K rent and price observations for Paris and Amsterdam and were able to calculate total returns at the property level. This is the first study that offers asset-level total return data for more than just a few years.
+
+				* Two things stand out from this paper: First, risk is a lot higher than previously thought. That means that the risk-adjusted returns of real estate are no positive outliers but comparable to stock returns.
+
+				* Second, almost all of the return comes from rents. Rents are really making or breaking property returns in the long run.
 
 				</textarea>
 			</section>
@@ -140,6 +171,19 @@
 			## Commercial Real Estate<span class="subtitle"><br/>Total returns dominated by income, not capital gains.</span>
 			* City of London, 1920&ndash;2010<br><img src="imgs/london.png" height=350>
 			<p class="source">Source: Scott (1996); MSCI/IPD</p>
+
+			Notes:
+			
+			* And this not just a residential real estate story.
+
+			* For commercial space we see a similar pattern. This figure gives you the returns for CRE right in the City of London.
+			The green line shows that very limited long-run capital gains have been achieved since WWII&mdash;in real terms. But the total return was solid due to the income delivered by these properties.
+
+			* So, rents are crucial. But our understanding of rents is even worse than our understanding of prices. Giacoletti, Sagi etc. they all work on capital returns but hardly anybody investigates rents.
+
+			* That's why I think that a new working paper that I co-authored is so exciting.
+
+
 			</textarea>
 		</section>
 
@@ -407,7 +451,7 @@
 	<textarea data-template>
 	<h2>Next steps<span class="subtitle"><br />Interdisciplinary work in three main directions</span></h2>
 
-	1. More data, especially on commercial real estate
+	1. More data, especially on commercial real estate and affordability
 	2. Richer data: 3D models (Lindenthal, REE 2020), remote sensors (Lindenthal, 2017), street-level images (Lindenthal & Johnson, JREFE 2021), dynamic preferences (Lindenthal, Schmidt & Wan, hopefully soon)
 	3. New empirical approaches to analyse these data: applied ML, spatial ANN (Clapp & Lindenthal, JHE R&R)
 
